@@ -2,19 +2,71 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/fontawesome-icons.css" />
     <title>Filter Project</title>
-    <link rel="stylesheet" href="style.css" />
+    <style></style>
   </head>
+
   <body>
-    <div class="wrap">
-      <button data-value="all"><span>ALL</span></button>
-      <button data-value="cake"><span>CAKES</span></button>
-      <button data-value="cupcakes"><span>CUPCAKES</span></button>
-      <button data-value="sweet"><span>SWEET</span></button>
-      <button data-value="doughnuts"><span>DOUGHNUTS</span></button>
-    </div>
-    <div class="wrapper"></div>
-    <script src="script.js"></script>
+    <!-- store -->
+    <section class="store py-5">
+      <div class="container">
+        <!--filter buttons -->
+        <div class="filter-buttons row">
+          <div
+            class="col-lg-8 mx-auto d-flex justify-content-around my-2 sortBtn flex-wrap"
+          >
+            <a
+              href="#"
+              class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2"
+              data-filter="all"
+            >
+              all</a
+            >
+            <a
+              href="#"
+              class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2"
+              data-filter="cakes"
+              >cakes</a
+            >
+            <a
+              href="#"
+              class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2"
+              data-filter="cupcakes"
+              >cupcakes</a
+            >
+            <a
+              href="#"
+              class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2"
+              data-filter="sweets"
+              >sweets</a
+            >
+            <a
+              href="#"
+              class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2"
+              data-filter="doughnuts"
+              >doughnuts</a
+            >
+          </div>
+        </div>
+        <!-- store  items-->
+        <div class="products row"></div>
+      </div>
+    </section>
+
+    <!-- jquery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="./js/bootstrap.js"></script>
+    <!-- script js -->
+    <script src="js/script.js"></script>
   </body>
 </html>
