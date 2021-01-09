@@ -1,50 +1,50 @@
 const products = [
   {
-    path: "../img/cake-1.jpeg",
+    path: "img/cake-1.jpeg",
     dataValue: "cakes",
   },
   {
-    path: "../img/cake-2.jpeg",
+    path: "img/cake-2.jpeg",
     dataValue: "cakes",
   },
   {
-    path: "../img/cake-3.jpeg",
+    path: "img/cake-3.jpeg",
     dataValue: "cakes",
   },
   {
-    path: "../img/cupcake-1.jpeg",
+    path: "img/cupcake-1.jpeg",
     dataValue: "cupcakes",
   },
   {
-    path: "../img/cupcake-2.jpeg",
+    path: "img/cupcake-2.jpeg",
     dataValue: "cupcakes",
   },
   {
-    path: "../img/cupcake-3.jpeg",
+    path: "img/cupcake-3.jpeg",
     dataValue: "cupcakes",
   },
   {
-    path: "../img/doughnut-1.jpeg",
+    path: "img/doughnut-1.jpeg",
     dataValue: "doughnuts",
   },
   {
-    path: "../img/doughnut-2.jpeg",
+    path: "img/doughnut-2.jpeg",
     dataValue: "doughnuts",
   },
   {
-    path: "../img/doughnut-3.jpeg",
+    path: "img/doughnut-3.jpeg",
     dataValue: "doughnuts",
   },
   {
-    path: "../img/sweets-1.jpeg",
+    path: "img/sweets-1.jpeg",
     dataValue: "sweets",
   },
   {
-    path: "../img/sweets-2.jpeg",
+    path: "img/sweets-2.jpeg",
     dataValue: "sweets",
   },
   {
-    path: "../img/sweets-3.jpeg",
+    path: "img/sweets-3.jpeg",
     dataValue: "sweets",
   },
 ];
@@ -79,7 +79,6 @@ function clickHandler() {
     result && render(element);
   }
   productArray = document.querySelectorAll(".store-item");
-  modalOpen();
 }
 clickHandler();
 
